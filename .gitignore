@@ -1,0 +1,11 @@
+/app-backend/node_modules
+/fantasy-app/node_modules
+/my-app/node_modules
+/my-app-ts/node_modules
+/react-native/beta1/node_modules
+/react-sumail-clock/node_modules
+/react-observer/node_modules
+/react-sumail-gesture/node_modules
+/react-sumail-pagination/node_modules
+/react-sumail-snake/node_modules
+/react-validator/node_modules

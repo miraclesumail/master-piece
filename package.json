@@ -1,0 +1,24 @@
+{
+  "name": "react-observer",
+  "version": "1.0.0",
+  "description": "a data observer plugin ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miracle_sumail",
+  "license": "ISC",
+  "keywords": [
+    "a",
+    "light",
+    "react",
+    "form",
+    "validator",
+    "by",
+    "miracle_sumail"
+  ],
+  "dependencies": {
+    "@types/react-router-dom": "^4.3.4",
+    "rxjs": "^6.5.2"
+  }
+}

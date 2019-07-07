@@ -1,0 +1,26 @@
+{
+  "name": "react-sumail-clock",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "a",
+    "diy",
+    "clock",
+    "made",
+    "by",
+    "combination",
+    "of",
+    "canvas",
+    "and",
+    "css-animate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}

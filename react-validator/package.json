@@ -1,0 +1,14 @@
+{
+  "name": "react-validator-haha",
+  "version": "1.0.1",
+  "description": "a light react form validator by miracle_sumail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.5.2"
+  }
+}

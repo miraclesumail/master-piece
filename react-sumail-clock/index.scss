@@ -1,0 +1,73 @@
+@keyframes pointer {
+    from { 
+      -webkit-transform: rotate(0deg); 
+      transform: rotate(0deg);
+    }
+    100% { 
+      -webkit-transform: rotate(360deg); 
+      transform: rotate(360deg);
+    }
+}
+
+@function widthFn($n) {
+  @return $n*5px;
+}
+
+@for $i from 0 through 360 {
+	@keyframes pointer#{$i} {
+    from { 
+      -webkit-transform: rotate(#{$i}deg); 
+      transform: rotate(#{$i}deg);
+    }
+    100% { 
+      -webkit-transform: rotate(#{$i+360}deg); 
+      transform: rotate(#{$i+360}deg);
+    }
+  }
+}
+
+@for $i from 0 through 360 {
+	@keyframes pointerA#{$i} {
+    from { 
+      -webkit-transform: rotate(#{$i}deg); 
+      transform: rotate(#{$i}deg);
+    }
+    100% { 
+      -webkit-transform: rotate(360deg); 
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@for $i from 0 through 360 {
+	.rotate#{$i} {
+      transform: rotate(#{$i}deg);
+      animation: pointer#{$i} 60s steps(60, end) infinite
+	}
+}
+
+@for $i from 0 through 360 {
+	.rotateM#{$i} {
+      transform: rotate(#{$i}deg);
+      animation: pointer#{$i} 3600s steps(60, end) infinite
+	}
+}
+
+@for $i from 0 through 360 {
+	.rotateA#{$i} {
+      animation: pointerA#{$i} 3600s steps(60, end) infinite;
+      //animation-duration: #{50 - $i/6}s;
+	}
+}
+
+@for $i from 0 through 360 {
+	.rotateWC#{$i} {
+      transform: rotate(#{$i}deg);
+      animation-name: pointerA#{$i};
+      animation-timing-function: steps(1, end);
+	}
+}
+
+.stop{
+    animation-play-state: paused;
+}

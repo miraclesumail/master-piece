@@ -4,6 +4,7 @@ var path = require("path");
 const { Transform } = require('stream');
 const crypto = require("crypto");
 const zlib = require('zlib');
+https://medium.com/@brandonstilson/lets-encrypt-files-with-node-85037bea8c0e
 
 // var readStream = fs.createReadStream('./test1.txt');
 // const writeStream = fs.createWriteStream('./newfile.txt');
